@@ -8,8 +8,8 @@ public class SuperannuationFund {
     private String dateCreated;
 
 
-    public SuperannuationFund(String nameOfSF, boolean isNational, String dateCreated) {
-        name = nameOfSF;
+    public SuperannuationFund(String name, boolean isNational, String dateCreated) {
+        this.name = name;
         this.isNational = isNational;
         this.dateCreated = dateCreated;
     }
